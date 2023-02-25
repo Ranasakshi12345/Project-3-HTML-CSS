@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url(./Image/project5-new-bgc2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: black;
+    border-bottom: 50px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav div img{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+.vl {
+    border-left: 2px solid rgb(246, 248, 246);
+    height: 50px;
+    position: absolute;
+    right: 85%;
+    margin-right: 50px;
+    top: 10px;
+  }
+.list{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    margin-right: 500px;
+}
+.right-sec-button{
+    display: flex;
+    align-items: center;
+    font-size: 200;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Right content */
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+section div h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
+}
+section div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+section div button{
+    padding: 9px 17px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 35px 0px 0px 100px;
+    border-radius: 6px;
+}
+section div button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
